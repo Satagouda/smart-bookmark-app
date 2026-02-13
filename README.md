@@ -77,7 +77,7 @@ This guarantees:
 ## 🔄 Realtime Implementation
 
 Supabase realtime subscription:  
-postgres_changes
+- postgres_changes
 event: '*'
 table: 'bookmarks'
 
@@ -154,8 +154,8 @@ Implemented:
 
 Configured in Vercel:
 
-NEXT_PUBLIC_SUPABASE_URL
-NEXT_PUBLIC_SUPABASE_ANON_KEY
+- NEXT_PUBLIC_SUPABASE_URL
+- NEXT_PUBLIC_SUPABASE_ANON_KEY
 
 
 Environment variables are not committed to Git.
